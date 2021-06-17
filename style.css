@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Do+Hyeon&family=Kaushan+Script&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/* font-family: 'Bree Serif', serif;
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Poppins', sans-serif; 
+font-family: 'Shadows Into Light', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0 , 0, 0, 0.8), rgba(0 , 0, 0, 0.8)), url(images/steve-jobs.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.navitems{
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    /* padding: 5px 10px; */
+
+}
+
+.navitems a{
+    text-decoration: none;
+    color: white;
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px 20px;
+    
+}
+
+.active{
+    border: 1px solid white;
+    padding: 7px 20px;
+    background-color: white;
+    color: black !important;
+
+}
+
+.navitems a:hover{
+    border: 1px solid white;
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    transition: 0.7s ease;
+}
+
+
+
+header .container1{
+    color: white;
+    display: flex;
+    position: absolute;
+    margin: 600px 0 0 300px;
+}
+
+.heading h1{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.year{
+    display: absolute;
+    margin: 10px 45px;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+
+header .container2{
+    color: white;
+
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    margin: 0 100px;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
+
+
+.heading a{
+    text-decoration: none;
+    color:white;
+    border:2px solid white;
+    position: absolute;
+    margin: 30px 150px;
+    padding: 5px 20px;
+    font-size: 20px;
+    
+}
+
+.heading a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s ease-in;
+}
+
+#middle1{
+    height: 100vh;
+    background-color: rgba(0 , 0, 0, 1);
+    
+    
+}
+
+
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#middle1 h1{
+    position: absolute;
+    margin: 50px 550px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.qflex{
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    margin: -10px 0;
+    
+
+}
+
+.qflex img{
+    width: 30px;
+    color: white;
+    /* margin-right: -40px; */
+    
+}
+
+.qflex h2{
+    font-family: 'Bree Serif', serif;
+    font-weight: lighter;
+}
+
+.qfacts h2{
+    margin: 20px 10px;
+    text-align: center;
+    
+    color: white;
+    
+}
+/* .quotes h2 span img{
+    width: 40px;
+    margin-top: 40px;
+    
+} */
+
+.qfacts p{
+    margin: 40px 100px;
+    /* font-family: 'Bree Serif', serif; */
+    text-transform: capitalize;
+    
+}
+
+.image img{
+    height: 80vh;
+    margin: 80px 0px 80px 200px;
+}
+
+#middle2{
+    height: 100vh;
+    background: url(images/quote.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.quote-container{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    color: white;
+    /* margin: 30px; */
+}
+
+.quote-container h1{
+    margin: -50px 0px 0px 50px;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    
+}
+
+.quotes p{
+    margin: 30px;
+    text-align: justify;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+
+.quotes a{
+    text-decoration: none;
+    color:white;
+    border:2px solid white;
+    margin: 30px 0 0 500px;
+    padding: 5px 20px;
+    font-size: 20px;
+    
+}
+
+.quotes a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s ease-in;
+}
+
+#form-container{
+    height: 100vh;
+    background: linear-gradient(rgba(0 , 0, 0, 0.8), rgba(0 , 0, 0, 0.8)), url(images/apple1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#form-container .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+    
+}
+
+fieldset{
+    padding: 30px;
+    
+}
+
+legend{
+    padding: 0 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+    
+    
+}
+
+label{
+    margin: 5px;
+}
+
+input{
+    margin: 5px;
+    padding: 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+textarea{
+    padding: 5px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.formbtn{
+    margin-top: 30px ;
+    background-color:black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.formbtn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-in;
+}
+
+footer{
+    height: 10vh;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
