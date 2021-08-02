@@ -16,7 +16,7 @@ font-family: 'Shadows Into Light', cursive;*/
 
 header{
     height: 100vh;
-    background: linear-gradient(rgba(0 , 0, 0, 0.8), rgba(0 , 0, 0, 0.8)), url(images/steve-jobs.jpg) no-repeat;
+    background: linear-gradient(rgba(0 , 0, 0, 0.8), rgba(0 , 0, 0, 0.8)), url(Images/steve-jobs.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -182,7 +182,7 @@ header .container2{
 
 #middle2{
     height: 100vh;
-    background: url(images/quote.jpeg) no-repeat;
+    background: url(Images/quote.jpeg) no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -231,7 +231,7 @@ header .container2{
 
 #form-container{
     height: 100vh;
-    background: linear-gradient(rgba(0 , 0, 0, 0.8), rgba(0 , 0, 0, 0.8)), url(images/apple1.jpg) no-repeat;
+    background: linear-gradient(rgba(0 , 0, 0, 0.8), rgba(0 , 0, 0, 0.8)), url(Images/apple1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     
